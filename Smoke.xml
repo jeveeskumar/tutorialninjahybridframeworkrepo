@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+	<test name="packagelevel">
+	<parameter name="url" value="https://tutorialsninja.com/demo/"></parameter>
+	<parameter name="username" value="ajaybsc49@gmail.com"></parameter>
+	<parameter name="pwd" value="12345"></parameter>
+<packages>
+	<package name="practice"></package>
+</packages>	
+	</test>
+
+  
+
+</suite> <!-- Suite -->

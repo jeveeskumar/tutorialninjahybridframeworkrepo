@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="packagelevel(failed)">
+    <parameter name="pwd" value="12345"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/"/>
+    <parameter name="username" value="ajaybsc49@gmail.com"/>
+    <classes>
+      <class name="practice.Demo_Register">
+        <methods>
+          <include name="registerWithAllfields"/>
+        </methods>
+      </class> <!-- practice.Demo_Register -->
+      <class name="practice.Demo_Search">
+        <methods>
+          <include name="SearchWithValidProductName"/>
+        </methods>
+      </class> <!-- practice.Demo_Search -->
+    </classes>
+  </test> <!-- packagelevel(failed) -->
+</suite> <!-- Failed suite [Suite] -->

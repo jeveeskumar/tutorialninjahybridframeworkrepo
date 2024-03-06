@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<groups>
+		<run>
+			<include name="regression"></include>
+		</run>
+	</groups>
+	<parameter name="url" value="https://tutorialsninja.com/demo/"></parameter>
+	<parameter name="username" value="ajaybsc49@gmail.com"></parameter>
+	<!--<parameter name="pwd" value="12345"></parameter> -->
+  <test thread-count="5" name="TestLogin" enabled="true">
+    <classes>
+		<class name="practice.Login">
+		  
+      </class>
+      </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="TestRegister">
+    <classes>
+		<class name="practice.Demo_Register">
+		 
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="TestSearch">
+    <classes>
+      <class name="practice.Demo_Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
