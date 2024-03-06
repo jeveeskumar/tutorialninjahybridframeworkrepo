@@ -17,7 +17,7 @@ public class SearchPage {
 	private WebElement validProduct;
 	@FindBy(xpath="//div[@id='content']/p[2]")
 	private WebElement invalidProductErrorMsg;
-	
+	//adding comment in search pom
 	
 	
 	public boolean getValidProductNameDisplayed() {
