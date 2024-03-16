@@ -6,14 +6,14 @@
   </listeners>
   <test thread-count="5" name="TutorialsNinja Tests(failed)">
     <classes>
-      <class name="com.ninja.tutorials.Search">
+      <class name="com.ninja.tutorials.SearchTest">
         <methods>
-          <include name="verifySearchWithInvalidProduct"/>
           <include name="tearDown"/>
-          <include name="Setup"/>
           <include name="verifySearchWithValidProduct"/>
+          <include name="Setup"/>
+          <include name="verifySearchWithInvalidProduct"/>
         </methods>
-      </class> <!-- com.ninja.tutorials.Search -->
+      </class> <!-- com.ninja.tutorials.SearchTest -->
     </classes>
   </test> <!-- TutorialsNinja Tests(failed) -->
 </suite> <!-- Failed suite [TutorialsNinja AutomationSuite] -->
